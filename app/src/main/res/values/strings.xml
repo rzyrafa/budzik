@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Budzik</string>
+    <string name="notification_channel_alarm_name">Alarm Notifications</string>
+    <string name="notification_channel_alarm_description">High-priority notifications for alarm triggers and full-screen ringing</string>
+    <string name="scaffolding_ready">Milestone 1 Scaffolding Ready</string>
+    <string name="scaffolding_description">Clean Architecture foundation and build setup verified.</string>
+
+    <!-- Feature Placeholders for Future Milestones -->
+    <string name="action_clear_all">Clear All Alarms</string>
+    <string name="action_batch_create">Batch Generate Alarms</string>
+    <string name="difficulty_easy">Easy (1-digit)</string>
+    <string name="difficulty_medium">Medium (2-digit)</string>
+    <string name="difficulty_hard">Hard (4-digit)</string>
+    <string name="alarm_ringing_title">Alarm Ringing!</string>
+    <string name="alarm_dismiss_prompt">Solve arithmetic equation to dismiss</string>
+</resources>

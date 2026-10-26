@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base Application Theme for Jetpack Compose Activity -->
+    <style name="Theme.Budzik" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
+        <item name="android:enforceStatusBarContrast" tools:targetApi="29">false</item>
+        <item name="android:enforceNavigationBarContrast" tools:targetApi="29">false</item>
+    </style>
+
+    <!-- Fullscreen Lockscreen Theme for RingingActivity -->
+    <style name="Theme.Budzik.FullScreenRinging" parent="Theme.Budzik">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+</resources>
